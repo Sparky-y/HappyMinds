@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Talk</string>
+    <string name="app_name">HappyMinds</string>
 
     <!-- Intro slides -->
-    <string name="intro_slide1_header">Welcome to Talk</string>
-    <string name="intro_slide1_body">Talk is a personal tool that helps you keep track of your mental health</string>
+    <string name="intro_slide1_header">Welcome to HappyMinds</string>
+    <string name="intro_slide1_body">HappyMinds is a personal tool that helps you keep track of your mental health</string>
     <string name="intro_slide2_header">Journal</string>
     <string name="intro_slide2_body">Use the journal to write more detailed information about how you\'re feeling</string>
     <string name="intro_slide3_header">Mood Graph</string>
