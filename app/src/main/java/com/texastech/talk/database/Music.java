@@ -5,7 +5,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity
-public class Resources {
+public class Music {
     /**
      * Entity used to store the resources that are suggested to the user
      * based on their past moods. The suggested resources are displayed
@@ -35,10 +35,10 @@ public class Resources {
     @ColumnInfo(name = "mood")
     public int mood;
 
-    public Resources(String title, String content, String hyperlink, int mood) {
-       this.title = title;
-       this.content = content;
-       this.hyperlink = hyperlink;
-       this.mood = mood;
+    public Music(String title, String content, String hyperlink, int mood) {
+        this.title = title;
+        this.content = content;
+        this.hyperlink = hyperlink;
+        this.mood = mood;
     }
 }

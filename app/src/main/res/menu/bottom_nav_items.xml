@@ -10,6 +10,9 @@
     <item android:id="@+id/statisticsFragment"
         android:title="@string/menu_statistics"
         android:icon="@drawable/ic_statistics"/>
+    <item android:title="@string/menu_music"
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/ic_baseline_library_music_24"/>
     <item android:id="@+id/settingsFragment"
         android:title="@string/menu_settings"
         android:icon="@drawable/ic_settings"/>

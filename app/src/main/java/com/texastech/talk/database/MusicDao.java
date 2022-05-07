@@ -8,22 +8,22 @@ import androidx.room.Query;
 import java.util.List;
 
 @Dao
-public interface ResourcesDao {
+public interface MusicDao {
     /**
      * A Data Access Object (Dao) is the bridge between the
      * user attempting to interact with the lower-level
      * database and the raw database. The access object
      * allows you to perform operations, retrieve data etc.
      */
-    @Query("SELECT * FROM resources")
-    List<Resources> getAll();
+    @Query("SELECT * FROM Music")
+    List<Music> getAll();
 
     @Insert
-    void insert(Resources resources);
+    void insert(Music music);
 
     @Insert
-    void insertAll(Resources[] resources);
+    void insertAll(Music... music);
 
     @Delete
-    void delete(Resources resource);
+    void delete(Music music);
 }

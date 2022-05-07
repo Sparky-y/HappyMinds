@@ -29,7 +29,16 @@
         android:label="fragment_statistics"
         tools:layout="@layout/fragment_statistics" >
         <action
-            android:id="@+id/action_statisticsFragment_to_settingsFragment"
+            android:id="@+id/action_statisticsFragment_to_musicFragment2"
+            app:destination="@id/musicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.texastech.talk.navigation.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" >
+        <action
+            android:id="@+id/action_musicFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
