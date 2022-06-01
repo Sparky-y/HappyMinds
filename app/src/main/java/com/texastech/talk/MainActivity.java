@@ -144,45 +144,39 @@ public class MainActivity extends AppCompatActivity {
                 new Resources("What is depression?", "Depression is a disorder that is evidenced by excessive sadness, loss of interest in enjoyable things, and low motivation.", "https://thiswayup.org.au/how-do-you-feel/sad/", MoodDepressed),
                 new Resources("Cat", "Watch this video.", "https://www.youtube.com/watch?v=xbs7FT7dXYc", MoodDepressed),
                 new Resources("Depression Symptoms and Warning Signs", "Do you think you might be depressed? Here are some of the signs and symptoms to look for—and tips for getting the help you need.", "https://www.helpguide.org/articles/depression/depression-symptoms-and-warning-signs.htm", MoodDepressed),
-                new Resources("Numb Little Bug", "When you’re depressed, you can’t just will yourself to “snap out of it.” But these tips can help put you on the road to recovery.", "https://open.spotify.com/track/3o9kpgkIcffx0iSwxhuNI2?si=eKQ6rzElSGGPAxF5ucwMvA&utm_source=whatsapp", MoodDepressed),
+                new Resources("Suicide Helpline", "Please refer this in case of emergency", "https://indianhelpline.com/SUICIDE-HELPLINE/", MoodDepressed),
 
                 // Sad
                 new Resources("Alone in the crowd - How loneliness affects the mind and body", "Watch this video about being lonely.", "https://www.youtube.com/watch?v=R8A7JodFx4s", MoodSad),
                 new Resources("Am I Depressed or Just Really Sad?", "People often think they’re depressed when they’re sad, or sad when they’re depressed.", "https://www.vice.com/en_us/article/9kzqa7/am-i-depressed-difference-sadness-depression", MoodSad),
                 new Resources("Why am I sad all the time?", "Ever felt sad or stressed for no apparent reason?", "https://au.reachout.com/articles/why-am-i-sad-all-the-time", MoodSad),
                 new Resources("How do I know if I'm sad or depressed?", "If you're afraid that your depressed, there are many things you can do to help figure it out.", "https://www.7cups.com/qa-depression-3/how-do-i-know-if-im-sad-or-depressed-650/", MoodSad),
-                new Resources("All Kids Are Depressed", "Watch this video about being lonely.", "https://open.spotify.com/track/75ls0gurX68lUmMjE7QcsE?si=kbEy9k1gSXCMekmeX-Q86g&utm_source=whatsapp", MoodSad),
 
                 // Angry
                 new Resources("Anger Management", "Is your temper hijacking your life? These tips and techniques can help you get anger under control and express your feelings in healthier ways.", "https://www.helpguide.org/articles/relationships-communication/anger-management.htm", MoodAngry),
                 new Resources("Controlling anger before it controls you", "We all know what anger is, and we've all felt it: whether as a fleeting annoyance or as full-fledged rage.", "https://www.apa.org/topics/anger/control", MoodAngry),
                 new Resources("I'm Angry", "Watch this video.", "https://www.youtube.com/watch?v=vyMx7s9cThU", MoodAngry),
                 new Resources("Why Am I So Angry?", "Anger can be a force for good. But ongoing, intense anger is neither helpful nor healthy. Here's how to get a grip.", "https://www.webmd.com/mental-health/features/why-am-i-so-angry#1", MoodAngry),
-                new Resources("I'm not Angry Anymore", "Is your temper hijacking your life? These tips and techniques can help you get anger under control and express your feelings in healthier ways.", "https://open.spotify.com/track/3L7SGNAGInpAsg8Kbj20ch?si=Azse1q59TSuR219OwVxiTw&utm_source=whatsapp", MoodAngry),
-
+                new Resources("5 Minutes Anger Management Meditation", "Meditation for anger management", "https://youtu.be/LNengFfaVGE", MoodAngry),
 
                 // Scared
                 new Resources("Phobias and Irrational Fears", "Is a phobia keeping you from doing things you’d like to do? Learn how to recognize, treat, and overcome the problem.", "https://www.helpguide.org/articles/anxiety/phobias-and-irrational-fears.htm", MoodScared),
                 new Resources("I'm Scared", "The fact that you feel scared about these intrusive thought means that you need to see a psychotherapist.", "https://www.mentalhelp.net/advice/i-m-scared/", MoodScared),
                 new Resources("Jeremy Zucker - Scared (Lyrics)", "Listen to song about loneliness.", "https://www.youtube.com/watch?v=iyEUvUcMHgE", MoodScared),
                 new Resources("How To Stop Being So Goddamn Scared All The Time", "So, you're scared. Let's finally talk about that, shall we?", "https://ittybiz.com/how-to-stop-being-scared/", MoodScared),
-                new Resources("Stressed Out", "Is a phobia keeping you from doing things you’d like to do? Learn how to recognize, treat, and overcome the problem.", "https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn?si=e_W4iKs3Qyy5lhNgF5_cyA&utm_source=whatsapp", MoodScared),
-
 
                 // Moderate
                 new Resources("5 Steps To Avoid Complacency", "Remember the fire in the belly you felt on the way to achieving a goal?", "https://thetobincompany.com/5-steps-to-avoid-complacency/", MoodModerate),
                 new Resources("How to be human: what it means to feel normal", "Leah Reich was one of the first internet advice columnists", "https://www.theverge.com/2017/2/5/14514224/how-to-be-human-depression-anxiety-feeling-normal", MoodModerate),
                 new Resources("NEVER GET COMFORTABLE - Best Motivational Video", "Motivate yourself with this video", "https://www.youtube.com/watch?v=2o8fmUlHAyk", MoodModerate),
                 new Resources("10 Best Things To Do With Your Free Time", "Watch this video about using your free time", "https://www.youtube.com/watch?v=afoAXho6EHs", MoodModerate),
-                new Resources("One Day", "Remember the fire in the belly you felt on the way to achieving a goal?", "https://open.spotify.com/track/27r2uANqwK7XbsiAZnzf9e?si=S73p6iHfTjKmJSEv81bcXw&utm_source=whatsapp", MoodModerate),
 
                 // Happy
                 new Resources("Feeling Happy and Being Happy Aren't the Same", "Can you be wrong about whether you are happy?", "https://www.psychologytoday.com/us/blog/am-i-right/201310/feeling-happy-and-being-happy-arent-the-same", MoodHappy),
                 new Resources("How to feel happier, according to neuroscientists and psychologists", "Researchers have known for decades that certain activities make us feel better, and they're just beginning to understand what happens in the brain to boost our mood.", "https://www.businessinsider.com/how-feel-happy-happier-better-2017-7", MoodHappy),
                 new Resources("Pharrell Williams - Happy", "Listen to Pharrell sing about being Happy!", "https://www.youtube.com/watch?v=ZbZSe6N_BXs", MoodHappy),
                 new Resources("The Science of Happiness: What Actually Makes Us Happy", "We all want to be happy. Period. In fact, I would argue that nearly everything we do, whether it’s working, marrying, running, or even filing our taxes is done with an overarching purpose: To feel happier.", "https://medium.com/@MaxWeigand/the-science-of-happiness-what-actually-makes-us-happy-78edcc9bdd58", MoodHappy),
-                new Resources("Sunday Best", "Songs That Will Make You Go Wiiiiiiiiiiiiiiiiiiiiiii", "https://open.spotify.com/track/1Cv1YLb4q0RzL6pybtaMLo?si=AUvGrH0nTe-89rp-mY2UBQ&utm_source=whatsapp", MoodHappy),
-
+                
         };
 
         resDao.insertAll(allResources);
@@ -207,30 +201,46 @@ public class MainActivity extends AppCompatActivity {
         // Create the list of all the resources
         Music[] songs = {
                 // Depressed
-                new Music("Numb Little Bug", "When you’re depressed, you can’t just will yourself to “snap out of it.” But these tips can help put you on the road to recovery.", "https://open.spotify.com/track/3o9kpgkIcffx0iSwxhuNI2?si=eKQ6rzElSGGPAxF5ucwMvA&utm_source=whatsapp", MoodDepressed),
-                new Music("Numb Little Bug", "When you’re depressed, you can’t just will yourself to “snap out of it.” But these tips can help put you on the road to recovery.", "https://open.spotify.com/track/3o9kpgkIcffx0iSwxhuNI2?si=eKQ6rzElSGGPAxF5ucwMvA&utm_source=whatsapp", MoodDepressed),
+                new Music("Breathe Me", "Sia", "https://open.spotify.com/track/7jqzZyJJLrpkRFYGpkqSK6?si=ecdb4bbc58584e78", MoodDepressed),
+                new Music("Day ’N’ Nite", "Kid Cudi", "https://open.spotify.com/track/4ywmyUAQ0WAdNHXpoWWqfv?si=a1313ecd7a7f4a74", MoodDepressed),
+                new Music("Fade to Black", "Metallica", "https://open.spotify.com/track/5nekfiTN45vlxG0eNJQQye?si=9505e6e621d842e6", MoodDepressed),
+                new Music("Zero", "Imagine Dragons", "https://open.spotify.com/track/2bzitsPcImYC6DZWvvLCQi?si=b7568413a3154e34", MoodDepressed),
+                new Music("Car Radio", "Twenty One Pilots", "https://open.spotify.com/track/5cbpoIu3YjoOwbBDGUEp3P?si=b2f4ea63d6544acb", MoodDepressed),
 
                 // Sad
-                new Music("All Kids Are Depressed", "Watch this video about being lonely.", "https://open.spotify.com/track/75ls0gurX68lUmMjE7QcsE?si=kbEy9k1gSXCMekmeX-Q86g&utm_source=whatsapp", MoodSad),
-                new Music("All Kids Are Depressed", "Watch this video about being lonely.", "https://open.spotify.com/track/75ls0gurX68lUmMjE7QcsE?si=kbEy9k1gSXCMekmeX-Q86g&utm_source=whatsapp", MoodSad),
+                new Music("Moral of the Story (feat. Niall Horan", "Ashe, Niall Horan", "spotify:track:5v6qYImm5k36GHlFxdEZyv?context=spotify%3Aartist%3A6P5NO5hzJbuOqSdyPB7SJM", MoodSad),
+                new Music("Numb Little Bug", "Em Beihold", "https://open.spotify.com/track/3o9kpgkIcffx0iSwxhuNI2?si=68ba1e654e7b45cd", MoodSad),
+                new Music("Runaway", "AURORA", "https://open.spotify.com/track/1v1oIWf2Xgh54kIWuKsDf6?si=266eea8bdc1542f2", MoodSad),
+                new Music("See You Again (feat. Charlie Puth)", "Wiz Khalifa, Charlie Puth", "https://open.spotify.com/track/2JzZzZUQj3Qff7wapcbKjc?si=f5c88d9823f54be8", MoodSad),
+                new Music("In The End - Mellen Gi Remix", "Linkin Park, Tommee Profitt, Fleurie, Mellen Gi", "https://open.spotify.com/track/5rAUZy2eDdegBxUVYxePK2?si=7e2ac2ab829e4d52", MoodSad),
 
                 // Angry
-                new Music("I'm not Angry Anymore", "Is your temper hijacking your life? These tips and techniques can help you get anger under control and express your feelings in healthier ways.", "https://open.spotify.com/track/3L7SGNAGInpAsg8Kbj20ch?si=Azse1q59TSuR219OwVxiTw&utm_source=whatsapp", MoodAngry),
-                new Music("I'm not Angry Anymore", "Is your temper hijacking your life? These tips and techniques can help you get anger under control and express your feelings in healthier ways.", "https://open.spotify.com/track/3L7SGNAGInpAsg8Kbj20ch?si=Azse1q59TSuR219OwVxiTw&utm_source=whatsapp", MoodAngry),
-
+                new Music("In the End", "Linkin Park", "https://open.spotify.com/track/60a0Rd6pjrkxjPbaKzXjfq?si=90b5d742ba1142ff", MoodAngry),
+                new Music("We Are Never Ever Getting Back Together", "Taylor Swift", "https://open.spotify.com/track/5YqltLsjdqFtvqE7Nrysvs?si=94476b397ac54cc7", MoodAngry),
+                new Music("So What", "Pink", "https://open.spotify.com/track/0JiY190vktuhSGN6aqJdrt?si=6ab983c68d404e39", MoodAngry),
+                new Music("First Of The Year (Equinox)", "Skrillex", "https://open.spotify.com/track/5i7fZq3chLyCHo3VeB6goD?si=01ee22c43eeb4a9a", MoodAngry),
+                new Music("Smells Like Teen Spirit", "Nirvana", "https://open.spotify.com/track/4CeeEOM32jQcH3eN9Q2dGj?si=5087a890ff224338", MoodAngry),
 
                 // Scared
-                new Music("Stressed Out", "Is a phobia keeping you from doing things you’d like to do? Learn how to recognize, treat, and overcome the problem.", "https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn?si=e_W4iKs3Qyy5lhNgF5_cyA&utm_source=whatsapp", MoodScared),
-                new Music("Stressed Out", "Is a phobia keeping you from doing things you’d like to do? Learn how to recognize, treat, and overcome the problem.", "https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn?si=e_W4iKs3Qyy5lhNgF5_cyA&utm_source=whatsapp", MoodScared),
-
+                new Music("Not Afraid", "Eminem", "https://open.spotify.com/track/7Ie9W94M7OjPoZVV216Xus?si=9cbf5a919edd4bd9", MoodScared),
+                new Music("Stressed Out", "Twenty One Pilots", "https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn?si=e_W4iKs3Qyy5lhNgF5_cyA&utm_source=whatsapp", MoodScared),
+                new Music("Let It Go", "Idina Menzel", "https://open.spotify.com/track/0qcr5FMsEO85NAQjrlDRKo?si=3b7de5ff360c4e6f", MoodScared),
+                new Music("Inner Demons", "Julia Brennan", "https://open.spotify.com/track/2OjmXOwfH7XG3oBzuv54Dw?si=b83e868d46c94929", MoodScared),
+                new Music("Demons", "Imagine Dragons", "https://open.spotify.com/track/5qaEfEh1AtSdrdrByCP7qR?si=abee4062d39944c0", MoodScared),
 
                 // Moderate
-                new Music("One Day", "Remember the fire in the belly you felt on the way to achieving a goal?", "https://open.spotify.com/track/27r2uANqwK7XbsiAZnzf9e?si=S73p6iHfTjKmJSEv81bcXw&utm_source=whatsapp", MoodModerate),
-                new Music("One Day", "Remember the fire in the belly you felt on the way to achieving a goal?", "https://open.spotify.com/track/27r2uANqwK7XbsiAZnzf9e?si=S73p6iHfTjKmJSEv81bcXw&utm_source=whatsapp", MoodModerate),
+                new Music("One Day", "Tata McRae", "https://open.spotify.com/track/27r2uANqwK7XbsiAZnzf9e?si=S73p6iHfTjKmJSEv81bcXw&utm_source=whatsapp", MoodModerate),
+                new Music("Work From Home", "Fifth Harmony", "https://open.spotify.com/track/4tCtwWceOPWzenK2HAIJSb?si=992df2c96b664381", MoodModerate),
+                new Music("All Of Me", "John Legend", "https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a?si=68171bf9bf024f6d", MoodModerate),
+                new Music("Take Me Home, Country Roads", "John Denver", "https://open.spotify.com/track/1YYhDizHx7PnDhAhko6cDS?si=b794b011f3ed426d", MoodModerate),
+                new Music("Sunflower", "Post Malone, Swae Lee", "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=d12bb19f93aa4371", MoodModerate),
 
                 // Happy
-                new Music("Sunday Best", "Songs That Will Make You Go Wiiiiiiiiiiiiiiiiiiiiiii", "https://open.spotify.com/track/1Cv1YLb4q0RzL6pybtaMLo?si=AUvGrH0nTe-89rp-mY2UBQ&utm_source=whatsapp", MoodHappy),
-                new Music("Sunday Best", "Songs That Will Make You Go Wiiiiiiiiiiiiiiiiiiiiiii", "https://open.spotify.com/track/1Cv1YLb4q0RzL6pybtaMLo?si=AUvGrH0nTe-89rp-mY2UBQ&utm_source=whatsapp", MoodHappy),
+                new Music("Sunday Best", "Surfaces", "https://open.spotify.com/track/1Cv1YLb4q0RzL6pybtaMLo?si=AUvGrH0nTe-89rp-mY2UBQ&utm_source=whatsapp", MoodHappy),
+                new Music("Summer Of '69", "Bryan Adams", "https://open.spotify.com/track/0GONea6G2XdnHWjNZd6zt3?si=396e9ba7f7cd4e6f", MoodHappy),
+                new Music("All Star", "Smash Mouth", "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK?si=d6ac0f8d0dd34735", MoodHappy),
+                new Music("Uptown Funk", "Mark Ronson, Bruno Mars", "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS?si=2062592133514112", MoodHappy),
+                new Music("Counting Stars", "One Republic", "https://open.spotify.com/track/2tpWsVSb9UEmDRxAl1zhX1?si=e4c7868a9c6747bd", MoodHappy),
 
         };
 

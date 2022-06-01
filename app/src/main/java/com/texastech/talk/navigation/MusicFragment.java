@@ -288,7 +288,7 @@ public class MusicFragment extends Fragment {
 
     private List<Music> getRelevantResources(View view) {
         /**
-         * Returns the resources relevant to the user's mood.
+         * Returns the music relevant to the user's mood.
          */
         AppDatabase database = AppDatabase.getDatabase(view.getContext());
         MusicDao musicDao = database.MusicDao();
